@@ -1,0 +1,2600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style copy.css" rel="stylesheet" type="text/css" />
+    <link href="./css/swiper.css" rel="stylesheet" type="text/css" />
+    <link href="./css/sumoselect.css" rel="stylesheet" type="text/css" />
+    <link href="./css/bootstrap.extension.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.3.3/dist/flowbite.min.css" />
+    <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Canvas</title>
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <!-- <div class="lg:container md:container mx-auto w-11/12">
+            <div class="ticker-wrap lg:mt-0 md:mt-0 mt-4">
+                <div class="ticker">
+
+                    <div class="ticker__item">New Year Savings: 40% Off All Photo Print with code SNOWBALL SHOP. | Free
+                        shipping on Orders $49+</div>
+
+                </div>
+            </div> -->
+        <!-- <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 ">
+            <div class="flex lg:justify-end md:justify-center justify-center ">
+                <div class="lg:justify-center md:justify-center justify-center align-middle mt-[29px] mr-[100px]">
+
+                    <p style="color: black ;line-height:1 align-middle; " class="text-xs">
+
+                        <span class="inline-block align-middle">Call Us 302-200-6432</span>
+                    </p>
+                </div>
+                <img src='./img/1640581473logo.svg' class="lg:w-3/6 md:w-3/6 w-3/6" alt="">
+            </div>
+            <div class="flex items-center justify-center ml-[146px]">
+                <div class="mr-4">
+                    <form id="demo-2">
+                        <input type="search" placeholder="Search">
+                    </form>
+                </div>
+
+                <div class="mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-[28px]" viewBox="0 0 576 512">
+                        <path
+                            d="M171.7 191.1H404.3L322.7 35.07C316.6 23.31 321.2 8.821 332.9 2.706C344.7-3.409 359.2 1.167 365.3 12.93L458.4 191.1H544C561.7 191.1 576 206.3 576 223.1C576 241.7 561.7 255.1 544 255.1L492.1 463.5C484.1 492 459.4 512 430 512H145.1C116.6 512 91 492 83.88 463.5L32 255.1C14.33 255.1 0 241.7 0 223.1C0 206.3 14.33 191.1 32 191.1H117.6L210.7 12.93C216.8 1.167 231.3-3.409 243.1 2.706C254.8 8.821 259.4 23.31 253.3 35.07L171.7 191.1zM191.1 303.1C191.1 295.1 184.8 287.1 175.1 287.1C167.2 287.1 159.1 295.1 159.1 303.1V399.1C159.1 408.8 167.2 415.1 175.1 415.1C184.8 415.1 191.1 408.8 191.1 399.1V303.1zM271.1 303.1V399.1C271.1 408.8 279.2 415.1 287.1 415.1C296.8 415.1 304 408.8 304 399.1V303.1C304 295.1 296.8 287.1 287.1 287.1C279.2 287.1 271.1 295.1 271.1 303.1zM416 303.1C416 295.1 408.8 287.1 400 287.1C391.2 287.1 384 295.1 384 303.1V399.1C384 408.8 391.2 415.1 400 415.1C408.8 415.1 416 408.8 416 399.1V303.1z" />
+                    </svg>
+                </div>
+
+                <div class="mr-4">
+                    <a href="#">Login</a> or <a href="#">Register</a>
+                </div>
+
+                <div class="mr-4">
+                    <!-- <div class="call lg:block md:hidden block" id="call-div ">
+                            <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40pt" height="30pt"
+                                version="1.1"
+                                style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                                viewBox="0 0 4770 4044" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <defs>
+                                    <style type="text/css">
+                                        .fil389464 {
+                                            fill: black
+                                        }
+
+                                        .fil18974654 {
+                                            fill: #453C33
+                                        }
+
+                                        .fil07897 {
+                                            fill: #756858
+                                        }
+
+                                        .fil27944 {
+                                            fill: #D2CDA9
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="Layer_x0020_1">
+                                    <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                    <g id="_1175177671360">
+                                        <g>
+                                            <path class="fil07897"
+                                                d="M4668 2371c15,10 5,-4 8,16 1,10 -1,9 -4,16l34 4c47,-141 74,-448 60,-578 -33,-292 -58,-441 -178,-699 -28,-61 -80,-157 -114,-209l-65 -97c-13,-17 -23,-31 -36,-48l-72 -89c-7,-10 -8,-11 -17,-20 -9,-10 -12,-14 -20,-22 -29,-30 -86,-102 -120,-123l113 121c11,11 27,29 37,42 40,52 97,126 132,182 279,442 379,983 242,1504z">
+                                            </path>
+                                            <path class="fil07897"
+                                                d="M3012 1783l0 -763c0,-70 -5,-105 -51,-161 -12,-15 -8,-14 -21,-19 40,81 35,101 35,204 0,81 1,163 1,244 -1,46 -4,480 1,487 4,2 0,2 14,5 9,3 12,2 21,3z">
+                                            </path>
+                                            <path class="fil07897"
+                                                d="M3640 2147c9,-14 3,-29 1,-38 -3,-20 -2,-25 -10,-39l-18 1 1 48c25,15 13,-5 26,28z">
+                                            </path>
+                                            <path class="fil07897"
+                                                d="M3602 2054c8,2 12,2 24,1 -2,-16 -25,-45 -35,-57l-32 -31c25,32 24,56 43,87z">
+                                            </path>
+                                        </g>
+                                        <g>
+                                            <path class="fil18974654"
+                                                d="M1422 1390c12,13 21,27 39,32 5,-60 127,-272 158,-318 17,-25 30,-43 48,-67 64,-86 87,-109 169,-191 168,-168 341,-256 554,-337 16,-6 32,-10 46,-14 128,-44 226,-51 354,-61 20,-2 30,-5 56,-5 350,2 620,89 897,280l91 71c1,1 2,1 3,2l30 26c0,1 1,2 2,2l6 5c0,1 1,2 2,2 -22,-45 -208,-173 -270,-211 -99,-60 -211,-111 -336,-149 -401,-123 -831,-69 -1188,138 -27,15 -50,30 -74,45 -213,139 -398,348 -514,576 -23,45 -59,117 -73,174z">
+                                            </path>
+                                            <path class="fil18974654"
+                                                d="M3501 3675l34 36c29,-15 74,-32 106,-45 130,-53 369,-201 473,-302 10,-9 11,-9 21,-16 7,-6 11,-11 19,-18 26,-26 60,-52 79,-77 14,-18 23,-26 38,-41 15,-14 21,-24 35,-39 84,-88 161,-217 224,-321 20,-32 35,-67 52,-100 29,-59 68,-156 89,-220 13,-38 28,-86 35,-125l-34 -4c3,-7 5,-6 4,-16 -3,-20 7,-6 -8,-16 -11,101 -124,355 -175,444 -37,66 -169,266 -225,320l-193 190c-9,8 -10,12 -21,21l-248 176c-33,21 -62,37 -98,55l-157 73c-10,5 -16,7 -26,11 -17,5 -15,4 -24,14z">
+                                            </path>
+                                            <path class="fil18974654"
+                                                d="M1027 3156l2 2c11,-2 9,-4 7,7l2 2c12,-2 10,-5 7,8l2 1 72 61c6,7 8,9 16,16l54 47c1,1 2,2 3,2l11 8c10,10 21,25 42,40l14 9c1,1 2,2 3,3 1,0 2,1 2,2 4,3 4,5 9,9l239 186c13,11 24,17 38,27 14,10 24,16 38,26 15,11 25,19 41,29 292,177 373,233 699,344 60,20 138,37 211,48 74,11 171,17 244,3 83,-16 123,-36 177,-81l139 -138c1,-1 4,-3 5,-4 36,-36 80,-85 109,-127 126,-187 52,-347 -56,-461 -12,-14 -45,-55 -64,-67 76,83 198,214 130,400 -52,139 -173,228 -256,312 -51,53 -90,93 -170,115 -86,22 -170,24 -258,14 -277,-31 -595,-179 -822,-318l-217 -142 -318 -250 -395 -384 85 94c12,12 21,20 32,32 20,20 38,39 60,60 12,12 21,21 30,30l31 32c0,0 1,2 2,3z">
+                                            </path>
+                                            <path class="fil18974654"
+                                                d="M1526 2777c-14,-21 -149,-141 -190,-187l-203 -222c-28,-36 -82,-98 -103,-132 -45,-73 -157,-220 -134,-335 15,-71 100,-123 148,-180 10,-13 12,-16 23,-28 66,-66 113,-172 95,-277 -21,-126 -123,-283 -207,-383l-9 -10c-23,-28 -39,-53 -71,-81l84 105c106,140 244,361 123,541 -23,34 -61,83 -85,105 -85,78 -155,128 -138,235 40,252 530,725 667,849z">
+                                            </path>
+                                            <path class="fil18974654"
+                                                d="M2260 3778c15,-2 76,5 93,7 18,2 78,-3 99,-6 178,-26 275,-135 315,-307 12,3 41,20 52,27 28,16 144,76 156,90 11,-4 6,3 11,-11 -14,-21 -251,-143 -256,-145 -57,204 -159,300 -355,311 -80,4 -135,-11 -208,-14 12,13 70,42 93,48z">
+                                            </path>
+                                            <path class="fil18974654"
+                                                d="M2647 2068l12 12c77,75 105,69 229,103l422 113c84,21 180,66 274,-26 27,-27 55,-70 56,-123 -13,-33 -1,-13 -26,-28l-1 -48 18 -1 -5 -15c-12,1 -16,1 -24,-1 14,101 -34,188 -124,222 -60,22 -97,11 -153,-4l-418 -113c-46,-13 -92,-24 -139,-37 -110,-30 -74,-33 -121,-54z">
+                                            </path>
+                                            <path class="fil18974654"
+                                                d="M316 1784c-71,-106 -122,-296 -88,-431 28,-109 69,-148 124,-214l70 -68c13,-11 25,-24 37,-32 -6,-15 -15,-32 -28,-44 -28,16 -51,45 -79,71 -82,76 -154,165 -168,292 -23,196 64,335 140,459l-8 -33z">
+                                            </path>
+                                        </g>
+                                        <g>
+                                            <path class="fil27944"
+                                                d="M1419 1314c-11,-13 -127,-304 -155,-369 -23,-53 -5,-53 59,-146l67 -85c11,-14 22,-26 33,-40 58,-69 121,-132 190,-190 28,-24 51,-45 83,-69 479,-358 1066,-481 1658,-313 214,61 437,173 605,304l165 140c183,178 371,427 474,735 190,570 116,1189 -228,1679l-48 63c-53,71 -94,119 -158,183l-135 128c-94,74 -193,141 -298,201 -32,18 -177,94 -210,94 1,-30 1,-356 7,-366 5,-10 64,-37 79,-46 578,-344 884,-1020 712,-1698 -59,-231 -152,-403 -291,-582 -10,-13 -17,-22 -29,-36 -71,-89 -193,-194 -296,-266 -102,-72 -199,-120 -328,-172 -243,-98 -590,-130 -868,-63 -293,70 -523,194 -699,363 -12,11 -23,18 -36,29 -37,30 -143,159 -173,201 -52,72 -101,151 -140,233 -12,25 -27,67 -40,88zm3 76c14,-57 50,-129 73,-174 116,-228 301,-437 514,-576 24,-15 47,-30 74,-45 357,-207 787,-261 1188,-138 125,38 237,89 336,149 62,38 248,166 270,211 20,18 38,37 57,57l79 92c122,155 160,238 230,411 30,72 49,146 63,224l25 155c5,36 -2,76 3,113l-3 161c-1,13 -6,38 -7,53 -5,59 -33,185 -49,242l-46 129c-18,45 -52,120 -76,160l-75 123c-25,40 -113,149 -144,180l-87 87c-13,13 -20,16 -33,28 -61,58 -261,196 -317,209 0,38 -5,61 -5,101l9 333c9,-10 7,-9 24,-14 10,-4 16,-6 26,-11l157 -73c36,-18 65,-34 98,-55l248 -176c11,-9 12,-13 21,-21l193 -190c56,-54 188,-254 225,-320 51,-89 164,-343 175,-444 137,-521 37,-1062 -242,-1504 -35,-56 -92,-130 -132,-182 -10,-13 -26,-31 -37,-42l-113 -121c-11,-7 -11,-8 -21,-17l-16 -16c-1,-1 -2,-1 -3,-2 -1,-1 -2,-2 -2,-2 -2,-2 -8,-8 -10,-9l-7 -7c-1,0 -2,-1 -3,-2l-155 -121c-195,-143 -418,-234 -651,-296l-162 -31c-19,-1 -24,-2 -38,-4l-142 -15 -234 2c-28,4 -40,7 -71,7l-233 40 -157 46c-22,7 -38,12 -59,19 -20,7 -36,15 -56,23l-161 74c-21,10 -31,18 -51,28 -40,20 -160,98 -192,122 -16,12 -28,21 -45,34 -62,46 -101,85 -156,134l-128 135c-43,54 -134,168 -166,227 -14,26 -4,27 8,57 9,20 14,36 23,56 2,4 5,11 6,13l40 98c5,11 7,17 11,26 19,44 91,231 109,249z">
+                                            </path>
+                                            <path class="fil27944"
+                                                d="M32 1417c-4,-64 -2,-135 15,-195 21,-75 82,-141 134,-189 65,-59 60,-72 170,-158 135,-106 284,-111 420,9 72,65 121,122 178,201 16,21 30,40 44,61 59,89 122,209 105,324 -27,174 -242,273 -266,385 -55,251 475,755 669,940 139,131 408,364 589,384 134,14 181,-96 265,-166 83,-69 159,-135 316,-91 165,45 407,235 494,369 117,182 11,321 -99,447 -42,47 -175,179 -229,205 -52,24 -116,33 -180,35 -426,10 -973,-330 -1215,-515 -113,-88 -249,-194 -352,-295 -77,-76 -139,-128 -214,-214l-80 -82c-91,-99 -276,-330 -355,-453 -80,-123 -134,-208 -202,-343 -91,-179 -195,-423 -207,-659zm755 1488l395 384 318 250 217 142c227,139 545,287 822,318 88,10 172,8 258,-14 80,-22 119,-62 170,-115 83,-84 204,-173 256,-312 68,-186 -54,-317 -130,-400l-83 -72c-16,-13 -29,-22 -45,-34 -16,-12 -29,-22 -45,-33 -71,-47 -187,-121 -283,-137 -106,-17 -180,15 -265,79 -44,32 -122,111 -160,150 -34,35 -51,38 -119,38 -21,0 -18,0 -32,-5 -74,-23 -121,-43 -189,-88l-346 -279c-137,-124 -627,-597 -667,-849 -17,-107 53,-157 138,-235 24,-22 62,-71 85,-105 121,-180 -17,-401 -123,-541l-84 -105c0,-1 -2,-3 -2,-3l-19 -18c-79,-80 -172,-155 -296,-158 -172,-4 -330,180 -444,295 -111,112 -120,230 -112,387 2,43 30,176 39,210 35,119 51,164 98,277l122 251 142 233 183 251c11,13 16,22 28,36l157 185c4,4 3,3 7,7 1,1 4,4 4,5l5 5zm260 271l-2 -1 2 1zm-9 -9l-2 -2 2 2zm-9 -9l-2 -2 2 2z">
+                                            </path>
+                                            <path class="fil27944"
+                                                d="M2950 1795c128,51 505,116 577,179 86,75 59,251 -78,282 -66,15 -186,-29 -251,-46 -75,-20 -433,-113 -478,-131 -81,-34 -105,-90 -105,-200l0 -909c0,-55 8,-84 36,-117 24,-28 47,-49 93,-60 95,-23 168,40 192,100 31,77 -5,794 14,902zm-303 273c47,21 11,24 121,54 47,13 93,24 139,37l418 113c56,15 93,26 153,4 90,-34 138,-121 124,-222 -19,-31 -18,-55 -43,-87 -11,-18 -31,-31 -48,-42 -43,-24 -158,-47 -213,-64 -22,-7 -47,-12 -69,-19 -23,-7 -48,-12 -73,-19 -12,-4 -23,-6 -36,-10 -13,-4 -23,-7 -36,-10 -17,-5 -25,-7 -36,-10 -16,-5 -23,-5 -36,-10 -9,-1 -12,0 -21,-3 -14,-3 -10,-3 -14,-5 -5,-7 -2,-441 -1,-487 0,-81 -1,-163 -1,-244 0,-103 5,-123 -35,-204 -16,-39 -114,-97 -191,-78l-43 13c-54,24 -90,59 -110,116 -13,42 -9,57 -9,106l0 905c0,47 -1,63 13,98 9,20 32,59 47,68z">
+                                            </path>
+                                            <path class="fil27944"
+                                                d="M316 1784l8 33c-76,-124 -163,-263 -140,-459 14,-127 86,-216 168,-292 28,-26 51,-55 79,-71 13,12 22,29 28,44l112 174c7,11 12,13 13,29l-77 29c-14,5 -23,8 -36,15 -61,28 -110,64 -140,128 -23,51 -39,117 -35,171 3,34 -2,70 3,103l17 96zm30 69c30,-69 -122,-385 107,-524 93,-57 171,-45 160,-100 -4,-15 -24,-42 -33,-57 -22,-36 -45,-68 -67,-104 -69,-118 -72,-118 -126,-74 -17,15 -31,26 -47,41 -17,17 -28,22 -44,39l-39 49c-49,62 -89,140 -103,243 -18,134 40,294 105,404 32,54 46,90 87,83z">
+                                            </path>
+                                            <path class="fil27944"
+                                                d="M2975 3589c-21,22 -36,46 -59,69 -27,26 -23,27 -64,64l-75 55c-112,67 -193,70 -319,64 -41,-2 -163,-41 -198,-63 -23,-6 -81,-35 -93,-48 73,3 128,18 208,14 196,-11 298,-107 355,-311 5,2 242,124 256,145 -5,14 0,7 -11,11zm-837 156c7,13 7,9 25,18l82 42c37,19 80,34 124,47 101,30 201,33 302,4 128,-37 212,-116 297,-211 100,-112 29,-81 -197,-223 -63,-39 -66,1 -84,57 -70,206 -219,259 -438,234 -42,-4 -132,-35 -111,32z">
+                                            </path>
+                                        </g>
+                                        <g>
+                                            <path class="fil389464"
+                                                d="M2138 3745c-21,-67 69,-36 111,-32 219,25 368,-28 438,-234 18,-56 21,-96 84,-57 226,142 297,111 197,223 -85,95 -169,174 -297,211 -101,29 -201,26 -302,-4 -44,-13 -87,-28 -124,-47l-82 -42c-18,-9 -18,-5 -25,-18zm-1792 -1892c-41,7 -55,-29 -87,-83 -65,-110 -123,-270 -105,-404 14,-103 54,-181 103,-243l39 -49c16,-17 27,-22 44,-39 16,-15 30,-26 47,-41 54,-44 57,-44 126,74 22,36 45,68 67,104 9,15 29,42 33,57 11,55 -67,43 -160,100 -229,139 -77,455 -107,524zm-314 -436c12,236 116,480 207,659 68,135 122,220 202,343 79,123 264,354 355,453l80 82c75,86 137,138 214,214 103,101 239,207 352,295 242,185 789,525 1215,515 64,-2 128,-11 180,-35 54,-26 187,-158 229,-205 110,-126 216,-265 99,-447 -87,-134 -329,-324 -494,-369 -157,-44 -233,22 -316,91 -84,70 -131,180 -265,166 -181,-20 -450,-253 -589,-384 -194,-185 -724,-689 -669,-940 24,-112 239,-211 266,-385 17,-115 -46,-235 -105,-324 -14,-21 -28,-40 -44,-61 -57,-79 -106,-136 -178,-201 -136,-120 -285,-115 -420,-9 -110,86 -105,99 -170,158 -52,48 -113,114 -134,189 -17,60 -19,131 -15,195z">
+                                            </path>
+                                            <path class="fil389464"
+                                                d="M1419 1314c13,-21 28,-63 40,-88 39,-82 88,-161 140,-233 30,-42 136,-171 173,-201 13,-11 24,-18 36,-29 176,-169 406,-293 699,-363 278,-67 625,-35 868,63 129,52 226,100 328,172 103,72 225,177 296,266 12,14 19,23 29,36 139,179 232,351 291,582 172,678 -134,1354 -712,1698 -15,9 -74,36 -79,46 -6,10 -6,336 -7,366 33,0 178,-76 210,-94 105,-60 204,-127 298,-201l135 -128c64,-64 105,-112 158,-183l48 -63c344,-490 418,-1109 228,-1679 -103,-308 -291,-557 -474,-735l-165 -140c-168,-131 -391,-243 -605,-304 -592,-168 -1179,-45 -1658,313 -32,24 -55,45 -83,69 -69,58 -132,121 -190,190 -11,14 -22,26 -33,40l-67 85c-64,93 -82,93 -59,146 28,65 144,356 155,369z">
+                                            </path>
+                                            <path class="fil389464"
+                                                d="M2950 1795c-19,-108 17,-825 -14,-902 -24,-60 -97,-123 -192,-100 -46,11 -69,32 -93,60 -28,33 -36,62 -36,117l0 909c0,110 24,166 105,200 45,18 403,111 478,131 65,17 185,61 251,46 137,-31 164,-207 78,-282 -72,-63 -449,-128 -577,-179z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            
+                        </div> -->
+        <!-- </div> -->
+        <!-- </div>
+        </div>
+        </div> -->
+        <!-- navbar -->
+        <!-- <div class="bg">
+            <div class="lg:container md:container mx-auto w-11/12 ">
+                <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+                    <div class="container flex flex-wrap justify-between items-center mx-auto">
+                        <a href="#" class="flex">
+                        </a>
+                        <div class="flex md:order-2">
+                            <button data-collapse-toggle="mobile-menu-4" type="button"
+                                class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                aria-controls="mobile-menu-4" aria-expanded="false">
+                                <span class="sr-only">Open main menu</span>
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+                            id="mobile-menu-4">
+                            <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 lg:hover:bg-[#263958] md:hover:bg-[#263958] hover:bg-white mb-1 pr-4 pl-3 text-white 
+                                    lg:hover:text-white md:hover:text-white hover:text-black  
+                                         rounded md:bg-transparent md:text-white lg:text-xl md:text-lg text-lg md:p-0 dark:text-white"
+                                        aria-current="page">Canvas</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 lg:hover:bg-[#263958] md:hover:bg-[#263958] hover:bg-white mb-1 pr-4 pl-3 text-white 
+                                    lg:hover:text-white md:hover:text-white hover:text-black  
+                                         rounded md:bg-transparent md:text-white lg:text-xl md:text-lg text-lg md:p-0 dark:text-white"
+                                        aria-current="page">Wall Decor</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 lg:hover:bg-[#263958] md:hover:bg-[#263958] hover:bg-white mb-1 pr-4 pl-3 text-white 
+                                    lg:hover:text-white md:hover:text-white hover:text-black  
+                                         rounded md:bg-transparent md:text-white lg:text-xl md:text-lg text-lg md:p-0 dark:text-white"
+                                        aria-current="page">Photo gift</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block py-2 lg:hover:bg-[#263958] md:hover:bg-[#263958] hover:bg-white mb-1 pr-4 pl-3 text-white 
+                                    lg:hover:text-white md:hover:text-white hover:text-black  
+                                         rounded md:bg-transparent md:text-white text-xl md:p-0 dark:text-white"
+                                        aria-current="page">Photo storage</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 lg:hover:bg-[#263958] md:hover:bg-[#263958] hover:bg-white mb-1 pr-4 pl-3 text-white 
+                                    lg:hover:text-white md:hover:text-white hover:text-black  
+                                         rounded md:bg-transparent md:text-white lg:text-xl md:text-lg text-lg md:p-0 dark:text-white"
+                                        aria-current="page">Photo Books</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 lg:hover:bg-[#263958] md:hover:bg-[#263958] hover:bg-white mb-1 pr-4 pl-3 text-white 
+                                    lg:hover:text-white md:hover:text-white hover:text-black  
+                                         rounded md:bg-transparent md:text-white lg:text-xl md:text-lg text-lg md:p-0 dark:text-white"
+                                        aria-current="page">Photo Albums</a>
+                                </li>
+                                <li>
+                                    <img width="33px" height="22px" class="flagsize main_flag lg:mt-2 md:mt-2 mt-0"
+                                        src="https://makemycanvas.in/assets/frontend/images/india.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div> -->
+        <!-- hero-section  -->
+        <header>
+            <div class="header-top">
+                <div class="content-margins">
+                    <div class="row">
+                        <div class="col-md-5 hidden-xs hidden-sm">
+                            <div class="entry"><b>contact us:</b> <a href="tel:+35235551238745">+3 (523) 555 123
+                                    8745</a></div>
+                            <div class="entry"><b>email:</b> <a href="mailto:office@exzo.com">office@exzo.com</a></div>
+                        </div>
+                        <div class="col-md-7 col-md-text-right">
+                            <div class="entry"><a class="open-popup" data-rel="1"><b>login</b></a>&nbsp; or &nbsp;<a
+                                    class="open-popup" data-rel="2"><b>register</b></a></div>
+                            <div class="entry language">
+                                <div class="title"><b>en</b></div>
+                                <div class="language-toggle header-toggle-animation">
+                                    <a href="#">fr</a>
+                                    <a href="#">ru</a>
+                                    <a href="#">it</a>
+                                    <a href="#">sp</a>
+                                </div>
+                            </div>
+                            <div class="entry hidden-xs hidden-sm"><a href="#"><i class="fa fa-heart-o"
+                                        aria-hidden="true"></i></a></div>
+                            <div class="entry hidden-xs hidden-sm cart">
+                                <a href="#">
+                                    <b class="hidden-xs">Your bag</b>
+                                    <span class="cart-icon">
+                                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                        <span class="cart-label">5</span>
+                                    </span>
+                                    <span class="cart-title hidden-xs">$1195.00</span>
+                                </a>
+                                <div class="cart-toggle hidden-xs hidden-sm">
+                                    <div class="cart-overflow">
+                                        <div class="cart-entry clearfix">
+                                            <a class="cart-entry-thumbnail" href="#"><img src="img/product-1.png"
+                                                    alt="" /></a>
+                                            <div class="cart-entry-description">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="h6"><a href="#">modern beat ht</a></div>
+                                                            <div class="simple-article size-1">QUANTITY: 2</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="simple-article size-3 grey">$155.00</div>
+                                                            <div class="simple-article size-1">TOTAL: $310.00</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="cart-color" style="background: #eee;"></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="button-close"></div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="cart-entry clearfix">
+                                            <a class="cart-entry-thumbnail" href="#"><img src="img/product-2.png"
+                                                    alt="" /></a>
+                                            <div class="cart-entry-description">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="h6"><a href="#">modern beat ht</a></div>
+                                                            <div class="simple-article size-1">QUANTITY: 2</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="simple-article size-3 grey">$155.00</div>
+                                                            <div class="simple-article size-1">TOTAL: $310.00</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="cart-color" style="background: #bf584b;"></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="button-close"></div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="cart-entry clearfix">
+                                            <a class="cart-entry-thumbnail" href="#"><img src="img/product-3.png"
+                                                    alt="" /></a>
+                                            <div class="cart-entry-description">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="h6"><a href="#">modern beat ht</a></div>
+                                                            <div class="simple-article size-1">QUANTITY: 2</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="simple-article size-3 grey">$155.00</div>
+                                                            <div class="simple-article size-1">TOTAL: $310.00</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="cart-color" style="background: #facc22;"></div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="button-close"></div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="empty-space col-xs-b40"></div>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="cell-view empty-space col-xs-b50">
+                                                <div class="simple-article size-5 grey">TOTAL <span
+                                                        class="color">$1195.00</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 text-right">
+                                            <a class="button size-2 style-3" href="checkout1.html">
+                                                <span class="button-wrapper">
+                                                    <span class="icon"><img src="img/icon-4.png" alt=""></span>
+                                                    <span class="text">proceed to checkout</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hamburger-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="content-margins">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3">
+                            <a id="logo" href="index1.html"><img src="img/1640581473logo.svg" alt="" /></a>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 text-right">
+                            <div class="nav-wrapper">
+                                <div class="nav-close-layer"></div>
+                                <nav>
+                                    <ul>
+                                        <li class="megamenu-wrapper active">
+                                            <a href="#">Canvas</a>
+                                            <div class="menu-toggle"></div>
+                                            <div class="megamenu">
+                                                <div class="links">
+                                                    <a class="active" href="#">Canvas Prints</a>
+                                                    <a href="#">Photo Collage</a>
+                                                    <a href="#">Photo Mosaics</a>
+                                                    <a href="#">Rolled Canvas</a>
+                                                    <a href="#">Portrait Collage</a>
+                                                </div>
+                                                <div class="content">
+                                                    <div class="row nopadding">
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/canvas.png" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/canvas.png" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-60.jpg" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-61.jpg" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-1.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-3.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="megamenu-wrapper">
+                                            <a href="#">Wall Decor</a>
+                                            <div class="menu-toggle"></div>
+                                            <div class="megamenu">
+                                                <div class="links">
+                                                    <a class="active" href="#">Canvas Wall Displays</a>
+                                                    <a href="#">Split Photo Canvas</a>
+                                                    <a href="">Photo Framing</a>
+                                                    <a href="">Acrylic Prints</a>
+                                                    <a href="">Metal Prints</a>
+                                                    <a href="">Hexagon Canvas</a>
+                                                    <a href="">Hexagon Vinyl</a>
+                                                    <a href="">Round Vinyl</a>
+                                                    <a href="">Square Vinyl</a>
+                                                    <a href="">Photo Blocks</a>
+                                                </div>
+                                                <div class="content">
+                                                    <div class="row nopadding">
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/wall.png" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/wall.png" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-60.jpg" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-61.jpg" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-1.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-3.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="megamenu-wrapper">
+                                            <a href="#">Photo gift</a>
+                                            <div class="menu-toggle"></div>
+                                            <div class="megamenu">
+                                                <div class="links">
+                                                    <a class="active" href="#">Photo Keychains</a>
+                                                    <a href="#">Photo Pillows</a>
+                                                    <a href="#">Photo Coasters</a>
+                                                    <a href="#">Photo Mugs</a>
+                                                    <a href="#">Acrylic Blocks</a>
+                                                    <a href="#">Acrylic Megnets</a>
+                                                    <a href="#">Magic Mug</a>
+                                                    <a href="#">Keychains Album</a>
+                                                    <a href="#">T-Shirt</a>
+                                                    <a href="#">Desk Calenders</a>
+                                                </div>
+                                                <div class="content">
+                                                    <div class="row nopadding">
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/photoGift.png" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/photoGift.png" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-60.jpg" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-61.jpg" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-1.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-3.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="megamenu-wrapper">
+                                            <a href="#">Photo storage</a>
+                                            <div class="menu-toggle"></div>
+                                            <div class="megamenu">
+                                                <div class="links">
+                                                    <a class="active" href="#">Custom USB Drives</a>
+                                                    <a href="#">Wood USB Box</a>
+                                                    <a href="#">Custom Presentation Boxes
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <div class="row nopadding">
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/storage.png" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/storage.png" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-60.jpg" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-61.jpg" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-1.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-3.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="megamenu-wrapper ">
+                                            <a href="#">Photo books</a>
+                                            <div class="menu-toggle"></div>
+                                            <div class="megamenu">
+                                                <div class="links">
+                                                    <a class="active" href="#">Soft cover</a>
+                                                    <a href="#">Hard Cover</a>
+                                                </div>
+                                                <div class="content">
+                                                    <div class="row nopadding">
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/books.png" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/books.png" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-60.jpg" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-61.jpg" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-1.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-3.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="megamenu-wrapper">
+                                            <a href="#">Photo Albums</a>
+                                            <div class="menu-toggle"></div>
+                                            <div class="megamenu">
+                                                <div class="links">
+                                                    <a class="active" href="#">Economy Albums</a>
+                                                    <a href="#">Cameo Cover</a>
+                                                    <a href="#">Canvas Cover</a>
+                                                    <a href="#">Acrylic Cover</a>
+                                                    <a href="#">Leather Cover</a>
+                                                    <a href="#">Wood Cover</a>
+                                                </div>
+                                                <div class="content">
+                                                    <div class="row nopadding">
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/last.png" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="./img/last.png" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"> <img
+                                                                                        src="./img/man.png"
+                                                                                        alt="" /></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="product-shortcode style-5">
+                                                                <div class="product-label green">best price</div>
+                                                                <div class="icons">
+                                                                    <a class="entry"><i class="fa fa-check"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry open-popup" data-rel="3"><i
+                                                                            class="fa fa-eye"
+                                                                            aria-hidden="true"></i></a>
+                                                                    <a class="entry"><i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i></a>
+                                                                </div>
+                                                                <div class="preview">
+                                                                    <div class="swiper-container" data-loop="1">
+                                                                        <div class="swiper-button-prev style-1"></div>
+                                                                        <div class="swiper-button-next style-1"></div>
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-60.jpg" alt="" />
+                                                                            </div>
+                                                                            <div class="swiper-slide">
+                                                                                <img src="img/product-61.jpg" alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content-animate">
+                                                                    <div class="title">
+                                                                        <div class="shortcode-rate-wrapper">
+                                                                            <div class="rate-wrapper align-inline">
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star"
+                                                                                    aria-hidden="true"></i>
+                                                                                <i class="fa fa-star-o"
+                                                                                    aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="h6 animate-to-green"><a
+                                                                                href="#">modern beat nine</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="simple-article text size-2">Mollis
+                                                                            nec consequat at In feugiat molestie tortor
+                                                                            a malesuada</div>
+                                                                    </div>
+                                                                    <div class="price">
+                                                                        <div class="simple-article size-4 dark">$630.00
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="preview-buttons">
+                                                                    <div class="buttons-wrapper">
+                                                                        <a class="button size-2 style-2" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-1.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Learn More</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a class="button size-2 style-3" href="#">
+                                                                            <span class="button-wrapper">
+                                                                                <span class="icon"><img
+                                                                                        src="img/icon-3.png"
+                                                                                        alt=""></span>
+                                                                                <span class="text">Add To Cart</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="navigation-title">
+                                        Navigation
+                                        <div class="hamburger-icon active">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="header-bottom-icon toggle-search"><i class="fa fa-search"
+                                    aria-hidden="true"></i></div>
+                            <div class="header-bottom-icon visible-rd"><i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="header-bottom-icon visible-rd">
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                <span class="cart-label">5</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-search-wrapper">
+                        <div class="header-search-content">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+                                        <form>
+                                            <div class="search-submit">
+                                                <i class="fa fa-search" aria-hidden="true"></i>
+                                                <input type="submit" />
+                                            </div>
+                                            <input class="simple-input style-1" type="text" value=""
+                                                placeholder="Enter keyword" />
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-close"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </header>
+    <div>
+        <div class="hero-bg lg:mt-[155px] mt-[100px]">
+            <div class="lg:py-40 md:py-40 py-20 ">
+                <div class="lg:pl-16 md:pl-12 pl-10">
+                    <h1 class="hero-content text-[35px] text-[#3f51b5] py-4">Photo Collage</h1>
+                    <p class="text-blue-500 py-4 ">Let your Memories speak for your walls...</p>
+                    <button
+                        class="bg-white border-2 border-[#F57724] hover:bg-[#263958] px-4 py-2 rounded-full hover:text-white">shop
+                        now</button>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="lg:container md:container mx-auto w-11/12">
+            <div class="text-center">
+                <h1 class="py-12 text-[#2b2a35]  lg:text-[32px] md:text-[20px] text-[20px]">MAKE MEMORIES OF YOUR CHOICE
+                </h1>
+            </div>
+
+            <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6">
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6">
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6">
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6">
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6">
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/man.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Canvas Prints</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="lg:container md:container mx-auto w-11/12">
+            <div class="text-center">
+                <h1 class="py-12 text-[#2b2a35]  lg:text-[32px] md:text-[20px] text-[20px]">CREATE YOUR LIFETIME
+                    MEMORIES
+                </h1>
+            </div>
+
+            <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-8">
+
+                <div class="text-center">
+                    <div>
+                        <img src="./img//second.png" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Photo Album</h5>
+                            <div>
+                                <i class="fas text-yellow-500 fa-star"></i>
+                                <i class="fas text-yellow-500 fa-star"></i>
+                                <i class="fas text-yellow-500 fa-star"></i>
+                                <i class="far text-yellow-500 fa-star"></i>
+                                <i class="far text-yellow-500 fa-star"></i>
+                            </div>
+                            <p>Start from <span class="text-[#6c88ab] line-through
+                                ">₹365</span> ₹165</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="text-center">
+                    <div>
+                        <img src="./img//first.png" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Photo Book</h5>
+                            <div>
+                                <i class="fas text-yellow-500 fa-star"></i>
+                                <i class="fas text-yellow-500 fa-star"></i>
+                                <i class="fas text-yellow-500 fa-star"></i>
+                                <i class="far text-yellow-500 fa-star"></i>
+                                <i class="far text-yellow-500 fa-star"></i>
+                            </div>
+                            <p>Start from <span class="text-[#6c88ab] line-through
+                                ">₹365</span> ₹165</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-4 mt-10 md:grid-cols-3 grid-cols-1 gap-6">
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/moge.jpeg" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Magic mug</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/t-shirt.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">T-shirt</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/moge.jpeg" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Magic mug</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/t-shirt.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">T-shirt</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid lg:grid-cols-4 mt-10 md:grid-cols-3 grid-cols-1 gap-6">
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/moge.jpeg" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Magic mug</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/t-shirt.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">T-shirt</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/moge.jpeg" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">Magic mug</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-center border-2 card hover:cursor-pointer">
+                    <div>
+                        <img src="./img/t-shirt.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="mb-2 text-[#dcb14a] font-bold text-[12px]">T-shirt</h5>
+                        <div>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="fas text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                            <i class="far text-[12px] text-yellow-500 fa-star"></i>
+                        </div>
+                        <p class="text-[12px]">Start from <span class="text-[#6c88ab] line-through
+                            ">₹365</span> ₹165</p>
+                    </div>
+                    <div class="btn">
+                        <a class="button size-2 style-1" href="#">
+                            <span class="button-wrapper hover:bg-[#fc9431] bg-[#263958]">
+                                <span class="icon"><i class=" text-[#263958] block fas fa-arrow-right"></i></span>
+                                <span class="text">Customize now</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bg-[#f6f4f2] mt-16 py-16">
+            <div class="lg:container md:container mx-auto w-11/12">
+                <div class="mb-2">
+                    <p class="text-[#111111]">Our life is filled with sublime moments that bring us joy and
+                        happiness
+                        when we remember them.
+                        Photos and videos are a great way to preserve our memories. We save them as prints or even
+                        hang
+                        them on our walls. Our favourite moments are frozen for posterity. We have a wide variety of
+                        materials and options that can be used to recreate our prints.</p>
+                </div>
+                <div>
+                    <p class="text-[#111111] mb-[20px]">
+                        Make my canvas is a trusted name in the field of photo printing. With a rich experience,
+                        they
+                        offer a wide choice of prints and materials to preserve your memory. Our strengths include:
+                    </p>
+                </div>
+                <div class=" grid lg:grid-cols-4 w-5/6 mx-auto md:grid-cols-3 mb-4 grid-cols-1 gap-8">
+                    <div class="list">
+                        <li>Wide choice of prints</li>
+                        <li>Quick turnaround time</li>
+                    </div>
+                    <div class="list">
+                        <li>Range of materials</li>
+                        <li>Unparalleled designs</li>
+                    </div>
+                    <div class="list">
+                        <li>World-class designs</li>
+                        <li>Professional quality</li>
+                    </div>
+                    <div class="list">
+                        <li>Efficient service</li>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-[#111111]">Make my canvas has the in-depth knowledge and the expertise to cater
+                        to a
+                        wide range of audiences
+                        and requirements of the clients. We have the technical proficiency and mastery over the
+                        craft
+                        that brings your memories to life.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- <footer>
+        <div class="lg:container md:container mx-auto w-11/12">
+            <div class="grid lg:grid-cols-4 md:grid-cols-3 pt-10 grid-cols-1 gap-8">
+                <div class="text-center">
+                    <div>
+                        <img src="./img/1640581473logo.svg" width="w-3/6" alt="">
+                    </div>
+                    <div>
+                        <p class="text-left text-[#808e95]"><i class="fas text-[black] fa-exclamation-circle"></i> We
+                            Understand The
+                            Value Of
+                            Feelings And Relations Hence, Opening This
+                            Pathway For Making
+                            Memories Of Our Loved Ones Tangible For Today, Tomorrow, Forever And Ever...</p>
+                    </div>
+                </div>
+
+                <div class="flex lg:justify-center md:justify-center justify-start">
+                    <div class="text-left">
+                        <p class="font-bold">TRENDING</p>
+                        <a href="" class="text-[#878787]"> Canvas Print</a><br>
+                        <a href="" class="text-[#878787]"> Photo Collage</a><br>
+                        <a href="" class=" text-[#878787]"> Canvas Wall Display</a><br>
+                        <a href="" class="text-[#878787]">Acrylic Print</a><br>
+                        <a href="" class=" text-[#878787]"> Acrylic Blocks</a><br>
+                        <a href="" class="text-[#878787]"> Photo Mug</a><br>
+                        <a href="" class=" text-[#878787]">Hexagon Canvas</a><br>
+                        <a href="" class="text-[#878787]">Photo Book</a>
+                    </div>
+                </div>
+
+                <div class=" flex lg:justify-center md:justify-center justify-start">
+                    <div class="text-left">
+                        <p class="font-bold">SHOPS</p>
+                        <a href="" class="text-[#878787]"> Metal Print</a><br>
+                        <a href="" class="text-[#878787]"> Round Vinyl</a><br>
+                        <a href="" class="text-[#878787]">Photo Coaster</a><br>
+                        <a href="" class="text-[#878787]">Desk Calendar</a><br>
+                        <p class="font-bold">GIFTS</p>
+                        <a href="" class="text-[#878787]"> Photo Keychain</a><br>
+                        <a href="" class="text-[#878787]"> Photo Pillow</a><br>
+                        <a href="" class="text-[#878787]">T-Shirt</a><br>
+                        <a href="" class="text-[#878787]">Magic Mug</a>
+                    </div>
+                </div>
+
+                <div class="flex lg:justify-center md:justify-center justify-start">
+                    <div class="text-left">
+                        <p class="font-bold">ABOUT</p>
+                        <a href="" class="text-[#878787]"> Offers</a><br>
+                        <a href="" class="text-[#878787]"> Review</a><br>
+                        <a href="" class="text-[#878787]"> Blog</a><br>
+                        <a href="" class="text-[#878787]">About us</a><br>
+                        <a href="" class="text-[#878787]"> Return Policy</a><br>
+                        <a href="" class="text-[#878787]"> Support</a><br>
+                        <a href="" class="text-[#878787]">Contact Us</a><br>
+                        <a href="" class="text-[#878787]">Privacy Policy</a> <br>
+                        <a href="" class="text-[#878787]">Term & Condition</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-8">
+                <div class="mt-6">
+                    <i class="fab fa-facebook-square text-4xl mr-2 text-[#4267B2]"></i>
+                    <i class="fab fa-instagram instagram text-4xl mr-2"></i>
+                    <i class="fab fa-pinterest text-[#E60023] text-4xl mr-2"></i>
+                    <i class="fab fa-youtube text-[#FF0000] text-4xl mr-2"></i>
+                    <i class="fab fa-twitter text-[#1DA1F2] text-4xl mr-2"></i>
+                </div>
+                <div class="mt-6 flex items-center justify-center col-span-2">
+                    <a href="">
+                        <img width="50px" height="15px" src="./img/Paytm_logo.png" alt="">
+                    </a>
+                    <a href="">
+                        <img width="50px" height="15px" src="./img/upi.png" alt="">
+                    </a>
+                    <a href="">
+                        <img width="50px" height="15px" src="./img/visa.png" alt="">
+                    </a>
+                    <a href="">
+                        <img width="50px" height="15px" src="./img/masterCard.png" alt="">
+                    </a>
+                    <a href="">
+                        <img width="50px" height="15px" src="./img/rupay.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#192027] mt-4 text-center py-2">
+            <p class="text-[#808e95]">© 2021 <a class="text-[blue]" href="">MakeMyCanvas</a> in All rights reserved.
+            </p>
+        </div>
+    </footer> -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 col-xs-b30 col-md-b0">
+                        <img src="img/1640581473logo.svg" width="3/6" alt="" />
+                        <div class="empty-space col-xs-b20"></div>
+                        <div class="simple-article size-2 light fulltransparent"><i
+                                class="fas text-[#fc9431] fa-exclamation-circle"></i> We
+                            Understand The
+                            Value Of
+                            Feelings And Relations Hence, Opening This
+                            Pathway For Making
+                            Memories Of Our Loved Ones Tangible For Today, Tomorrow, Forever And Ever...</p>
+                        </div>
+                        <div class="empty-space col-xs-b20"></div>
+                        <div class="footer-contact"><i class="fa fa-mobile" aria-hidden="true"></i> contact us: <a
+                                href="tel:+35235551238745">+3 (523) 555 123 8745</a></div>
+                        <div class="footer-contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> email: <a
+                                href="mailto:office@exzo.com">office@exzo.com</a></div>
+                        <div class="footer-contact"><i class="fa fa-map-marker" aria-hidden="true"></i> address: <a
+                                href="#">1st, new york, usa</a></div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-b30 col-md-b0">
+                        <h6 class="h6 light">queck links</h6>
+                        <div class="empty-space col-xs-b20"></div>
+                        <div class="footer-column-links">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <a href="#">home</a>
+                                    <a href="#">about us</a>
+                                    <a href="#">products</a>
+                                    <a href="#">services</a>
+                                    <a href="#">blog</a>
+                                    <a href="#">gallery</a>
+                                    <a href="#">contact</a>
+                                </div>
+                                <div class="col-xs-6">
+                                    <a href="#">privacy policy</a>
+                                    <a href="#">warranty</a>
+                                    <a href="#">login</a>
+                                    <a href="#">registration</a>
+                                    <a href="#">delivery</a>
+                                    <a href="#">pages</a>
+                                    <a href="#">our stores</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear visible-sm"></div>
+                    <div class="col-sm-6 col-md-3 col-xs-b30 col-sm-b0">
+                        <h6 class="h6 light">some posts</h6>
+                        <div class="empty-space col-xs-b20"></div>
+                        <div class="footer-post-preview clearfix">
+                            <a class="image" href="#"><img src="img/thumbnail-1.jpg" alt="" /></a>
+                            <div class="description">
+                                <div class="date">apr 07 / 15</div>
+                                <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
+                            </div>
+                        </div>
+                        <div class="footer-post-preview clearfix">
+                            <a class="image" href="#"><img src="img/thumbnail-2.jpg" alt="" /></a>
+                            <div class="description">
+                                <div class="date">apr 07 / 15</div>
+                                <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
+                            </div>
+                        </div>
+                        <div class="footer-post-preview clearfix">
+                            <a class="image" href="#"><img src="img/thumbnail-3.jpg" alt="" /></a>
+                            <div class="description">
+                                <div class="date">apr 07 / 15</div>
+                                <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h6 class="h6 light">popular tags</h6>
+                        <div class="empty-space col-xs-b20"></div>
+                        <div class="tags clearfix">
+                            <a class="tag">headphoness</a>
+                            <a class="tag">accessories</a>
+                            <a class="tag">new</a>
+                            <a class="tag">wireless</a>
+                            <a class="tag">cables</a>
+                            <a class="tag">devices</a>
+                            <a class="tag">gadgets</a>
+                            <a class="tag">brands</a>
+                            <a class="tag">replacements</a>
+                            <a class="tag">cases</a>
+                            <a class="tag">cables</a>
+                            <a class="tag">professional</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-lg-8 col-xs-text-center col-lg-text-left col-xs-b20 col-lg-b0">
+                        <div class="copyright">&copy; 2015 All rights reserved. Development by <a
+                                href="http://themeforest.net/user/unionagency" target="_blank">UnionAgency</a></div>
+                        <div class="follow">
+                            <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-linkedin"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-text-center col-lg-text-right">
+                        <div class="footer-payment-icons">
+                            <a class="entry"><img width="50px" height="15px" src="./img/Paytm_logo.png" alt="" /></a>
+                            <a class="entry"><img width="50px" height="15px" src="./img/upi.png" alt="" /></a>
+                            <a class="entry"><img width="50px" height="15px" src="./img/visa.png" alt="" /></a>
+                            <a class="entry"><img width="50px" height="15px" src="./img/masterCard.png" alt="" /></a>
+                            <a class="entry"><img width="50px" height="15px" src="./img/rupay.png" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/swiper.jquery.min.js"></script>
+    <script src="./js/global.js"></script>
+
+
+
+    <!-- styled select -->
+    <script src="./js/jquery.sumoselect.min.js"></script>
+
+    <!-- counter -->
+    <script src="./js/jquery.classycountdown.js"></script>
+    <script src="./js/jquery.knob.js"></script>
+    <script src="./js/jquery.throttle.js"></script>
+
+</body>
+
+</html>
